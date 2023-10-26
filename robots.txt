@@ -1,20 +1,27 @@
+# Common Crawl robot, the resulting dataset is the primary training corpus in every LLM.
 User-agent: CCBot
 Disallow: /
 
+# ChatGPT robot, used to improve the ChatGPT LLM. 
 User-agent: ChatGPT-User
 Disallow: /
 
+# ChatGPT robot, may be used to improve the ChatGPT LLM. 
 User-agent: GPTBot
 Disallow: /
 
+# Robot used to improve Bard and Vertex AI LLMs.
 User-agent: Google-Extended
 Disallow: /
 
+# webz.io robot, the resulting dataset can and is purchased to train LLMs.
 User-agent: Omgilibot
 Disallow: /
 
+# webz.io robot, the resulting dataset can and is purchased to train LLMs.
 User-agent: Omgili
 Disallow: /
 
+# FacebookBot crawls public web pages to improve LLMs for Facebook's speech recognition technology. 
 User-agent: FacebookBot
 Disallow: /
