@@ -1,5 +1,5 @@
 {
-  "name": "no-ai-robots",
+  "name": "@bonniernews/no-ai-robots",
   "version": "0.0.1",
   "description": "Express middleware for blocking ai-robots",
   "main": "index.js",
@@ -9,14 +9,21 @@
     "url": "git@github.com:BonnierNews/no-ai-robots.git"
   },
   "scripts": {
-    "test": "mocha",
-    "posttest": "npm run lint",
+    "build": "node scripts/build.js > index.js",
+    "prepack": "npm run build",
     "lint": "eslint ."
   },
   "author": "Bonnier News AB",
   "license": "Apache-2.0",
   "devDependencies": {
-    "eslint": "^8.35.0",
-    "@bonniernews/eslint-config": "^1.0.0"
-  }
+    "@bonniernews/eslint-config": "^1.0.0",
+    "eslint": "^8.35.0"
+  },
+  "files": [
+    "index.js",
+    "CHANGELOG.md",
+    "README.md",
+    "LICENSE",
+    "robots.txt"
+  ]
 }
