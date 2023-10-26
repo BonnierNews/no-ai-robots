@@ -19,5 +19,5 @@ function noRobotsMiddleware(req, res) {
   `);
 }
 
-app.use("/robots.txt", robotsMiddleware)
+app.use("/robots.txt", robotsMiddleware);
 ```
