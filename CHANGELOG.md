@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.0.3
+-----
+
+- Include types in package.
+
 0.0.2
 -----
 
