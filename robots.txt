@@ -32,4 +32,7 @@ Disallow: /
 
 # Bytespider is ByteDance's bot and may not respect robots.txt.
 User-agent: Bytespider
+
+# Robot used to improve Anthropic AI LLMs.
+User-agent: anthropic-ai
 Disallow: /
