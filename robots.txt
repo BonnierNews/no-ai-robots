@@ -25,3 +25,7 @@ Disallow: /
 # FacebookBot crawls public web pages to improve LLMs for Facebook's speech recognition technology. 
 User-agent: FacebookBot
 Disallow: /
+
+# Robot used to improve Anthropic AI LLMs.
+User-agent: anthropic-ai
+Disallow: /
