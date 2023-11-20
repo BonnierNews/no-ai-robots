@@ -25,3 +25,11 @@ Disallow: /
 # FacebookBot crawls public web pages to improve LLMs for Facebook's speech recognition technology. 
 User-agent: FacebookBot
 Disallow: /
+
+# Amazonbot is used to train Amazon services such as Alexa.
+User-agent: Amazonbot
+Disallow: /
+
+# Bytespider is ByteDance's bot and may not respect robots.txt.
+User-agent: Bytespider
+Disallow: /
