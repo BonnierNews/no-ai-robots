@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.0.4
+-----
+
+- Disallow OpenAI search bot (OAI-SearchBot)
+
 0.0.3
 -----
 

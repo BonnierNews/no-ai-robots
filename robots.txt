@@ -29,3 +29,7 @@ Disallow: /
 # Robot used to improve Anthropic AI LLMs.
 User-agent: anthropic-ai
 Disallow: /
+
+# OpenAI search bot 
+User-agent: OAI-SearchBot
+Disallow: /
