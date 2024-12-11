@@ -30,6 +30,10 @@ Disallow: /
 User-agent: anthropic-ai
 Disallow: /
 
+# OpenAI search bot 
+User-agent: OAI-SearchBot
+Disallow: /
+
 # Velen.io/Hunter.io "build business datasets and machine learning models to better understand the web" - seems to focus on collecting email adresses for spam though. 
 User-agent: VelenPublicWebCrawler
 Disallow: /
