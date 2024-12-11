@@ -26,6 +26,13 @@ Disallow: /
 User-agent: FacebookBot
 Disallow: /
 
+# Amazonbot is used to train Amazon services such as Alexa.
+User-agent: Amazonbot
+Disallow: /
+
+# Bytespider is ByteDance's bot and may not respect robots.txt.
+User-agent: Bytespider
+
 # Robot used to improve Anthropic AI LLMs.
 User-agent: anthropic-ai
 Disallow: /
