@@ -1,6 +1,13 @@
 Changelog
 =========
 
+0.0.5
+-----
+
+- Disallow Amazonbot
+- Disallow Bytespider
+- Disallow velen.io/hunter.io
+
 0.0.4
 -----
 
