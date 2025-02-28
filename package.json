@@ -12,7 +12,9 @@
   "scripts": {
     "build": "node scripts/build.js > index.js",
     "prepack": "npm run build",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "postpublish": "npm run publish-internal",
+    "publish-internal": "npm publish --access public --ignore-scripts --@bonniernews:registry='https://npm.pkg.github.com'"
   },
   "author": "Bonnier News AB",
   "license": "Apache-2.0",
