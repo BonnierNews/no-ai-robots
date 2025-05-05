@@ -14,6 +14,10 @@ Disallow: /
 User-agent: Google-Extended
 Disallow: /
 
+# Associated with Google Vertex AI agents
+User-agent: Google-CloudVertexBot
+Disallow: /
+
 # webz.io robot, the resulting dataset can and is purchased to train LLMs.
 User-agent: Omgilibot
 Disallow: /
@@ -24,6 +28,50 @@ Disallow: /
 
 # FacebookBot crawls public web pages to improve LLMs for Facebook's speech recognition technology. 
 User-agent: FacebookBot
+Disallow: /
+
+# Another agent used by Anthropic that is more specifically related to Claude
+User-agent: ClaudeBot
+Disallow: /
+
+# Diffbot crawls the web in or others to train their LLMs.
+User-agent: Diffbot
+Disallow: /
+
+# Uses scraped data on-the-fly to create answers for DuckAssist.
+User-agent: DuckAssistBot
+Disallow: /
+
+# Used by perplexity.ai. Generates text based on scraped material.
+User-agent: PerplexityBot
+Disallow: /
+
+#  Cohere’s chatbot.
+User-agent: cohere-ai
+Disallow: /
+
+#  Cohere’s chatbot.
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+# Use cases such as training AI models or improving products by indexing content directly.
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# Crawler performs user-initiated fetches of individual links in support of some AI tools.
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+# Used by Timpi to scrape data for training their Large Language Models.
+User-agent: Timpibot
+Disallow: /
+
+# Used by Webz.io to indicate that your site should not be included those using it to train AI models.
+User-agent: Webzio-Extended
+Disallow: /
+
+# Crawler behind You.com’s AI search and browser assistant, indexing content for real-time answers.
+User-agent: YouBot
 Disallow: /
 
 # Amazonbot is used to train Amazon services such as Alexa.
@@ -39,7 +87,7 @@ User-agent: anthropic-ai
 Disallow: /
 
 # OpenAI search bot 
-User-agent: OAI-SearchBot
+User-agent: OAI-SearchBot
 Disallow: /
 
 # Velen.io/Hunter.io "build business datasets and machine learning models to better understand the web" - seems to focus on collecting email adresses for spam though. 
