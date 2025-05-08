@@ -1,7 +1,7 @@
 Changelog
 =========
 
-Unreleased
+0.0.6
 -----
 
 - Disallow Google-CloudVertexBot
