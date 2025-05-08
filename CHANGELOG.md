@@ -1,6 +1,22 @@
 Changelog
 =========
 
+Unreleased
+-----
+
+- Disallow Google-CloudVertexBot
+- Disallow ClaudeBot
+- Disallow Diffbot
+- Disallow DuckAssistBot
+- Disallow PerplexityBot
+- Disallow cohere-ai
+- Disallow cohere-training-data-crawler
+- Disallow Meta-ExternalAgent
+- Disallow Meta-ExternalFetcher
+- Disallow Timpibot
+- Disallow Webzio-Extended
+- Disallow YouBot
+
 0.0.5
 -----
 
