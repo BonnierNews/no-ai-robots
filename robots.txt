@@ -1,3 +1,20 @@
+# All content on this website, including text, graphics, images, web design, film, sound 
+# and other content, is protected by the Swedish Copyright Act (1960:729) (hereinafter
+# "the Copyright Act"), both in terms of copyright and related rights. Bonnier News AB and
+# its group companies (“Bonnier News”/”us”) reserve all rights to the content, including the
+# right to use the content and the press publication for text and data extraction in
+# accordance with Section 15a of the Copyright Act and Article 4 of the Copyright Directive.
+#
+# You may not use, nor may you facilitate or authorize the use of, the websites and/or any
+# content for any purpose without prior written permission by Bonnier News, including, but
+# not limited to, scraping the content or reproducing, modifying, collecting or extracting
+# the content for text and data aggregation, analysis or extraction or commercial use.
+# However, permission for website scraping and indexing may be granted for inclusion in a
+# search engine provided that such authorization has been made explicitly by us through our
+# technical instructions or similar specifications. Any form of scraping and indexing not
+# expressly authorized by our technical instructions or specifications is strictly
+# prohibited.
+
 # Common Crawl robot, the resulting dataset is the primary training corpus in every LLM.
 User-agent: CCBot
 Disallow: /
