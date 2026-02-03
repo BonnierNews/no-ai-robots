@@ -51,6 +51,14 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 
+# AI search indexing for Claude search capabilities
+User-agent: Claude-SearchBot
+Disallow: /
+
+# AI agent for real-time web access when Claude users browse
+User-agent: Claude-User
+Disallow: /
+
 # Diffbot crawls the web in or others to train their LLMs.
 User-agent: Diffbot
 Disallow: /
@@ -61,6 +69,10 @@ Disallow: /
 
 # Used by perplexity.ai. Generates text based on scraped material.
 User-agent: PerplexityBot
+Disallow: /
+
+# AI agent for real-time browsing when Perplexity users request information
+User-agent: Perplexity-User
 Disallow: /
 
 #  Cohere’s chatbot.
@@ -77,6 +89,10 @@ Disallow: /
 
 # Crawler performs user-initiated fetches of individual links in support of some AI tools.
 User-agent: Meta-ExternalFetcher
+Disallow: /
+
+# Used to improve Meta AI search.
+User-agent: Meta-WebIndexer
 Disallow: /
 
 # Used by Timpi to scrape data for training their Large Language Models.
@@ -109,4 +125,16 @@ Disallow: /
 
 # Velen.io/Hunter.io "build business datasets and machine learning models to better understand the web" - seems to focus on collecting email adresses for spam though. 
 User-agent: VelenPublicWebCrawler
+Disallow: /
+
+# AI research agent for Google Gemini’s Deep Research feature
+User-agent: Gemini-Deep-Research
+Disallow: /
+
+# AI and machine learning data collection
+User-agent: ICC-Crawler
+Disallow: /
+
+# Mistral’s real-time citation fetcher for “Le Chat” assistant
+User-agent: MistralAI-User
 Disallow: /
