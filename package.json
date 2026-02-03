@@ -1,6 +1,6 @@
 {
   "name": "@bonniernews/no-ai-robots",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Express middleware for blocking ai-robots",
   "main": "index.js",
   "homepage": "https://github.com/BonnierNews/no-ai-robots",
