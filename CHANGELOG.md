@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.0.8
+
+- Disallow Claude-SearchBot
+- Disallow Claude-User
+- Disallow Perplexity-User
+- Disallow Meta-WebIndexer
+- Disallow Gemini-Deep-Research
+- Disallow ICC-Crawler
+- Disallow MistralAI-User
+
 ## 0.0.7
 
 - Add legal notice
