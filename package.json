@@ -7,7 +7,7 @@
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:BonnierNews/no-ai-robots.git"
+    "url": "git+ssh://git@github.com/BonnierNews/no-ai-robots.git"
   },
   "scripts": {
     "build": "node scripts/build.js > index.js",
