@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.9
+
+- Added bots that are recommended by botpolicy.org
+
 ## 0.0.8
 
 - Disallow Claude-SearchBot
