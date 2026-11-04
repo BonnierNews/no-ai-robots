@@ -260,8 +260,6 @@ User-agent: Panscient
 User-agent: panscient.com
 User-agent: Poseidon Research Crawler
 User-agent: Scrapy
-User-agent: SemrushBot-OCOB
-User-agent: SemrushBot-SWA
 User-agent: Spider   # not documented by its operator
 User-agent: Thinkbot
 User-agent: WARDBot   # not documented by its operator
