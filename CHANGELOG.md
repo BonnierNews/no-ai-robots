@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.10
+
+- Allow SemrushBot
+
 ## 0.0.9
 
 - Added bots that are recommended by botpolicy.org
