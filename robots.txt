@@ -1,19 +1,46 @@
-# All content on this website, including text, graphics, images, web design, film, sound 
-# and other content, is protected by the Swedish Copyright Act (1960:729) (hereinafter
-# "the Copyright Act"), both in terms of copyright and related rights. Bonnier News AB and
-# its group companies (“Bonnier News”/”us”) reserve all rights to the content, including the
-# right to use the content and the press publication for text and data extraction in
-# accordance with Section 15a of the Copyright Act and Article 4 of the Copyright Directive.
+# Upphovsrätt
+# Allt innehåll på Bonnier News AB:s och dess koncernbolags (härefter “Bonnier News”)
+# webbplatser inklusive text, grafik, bilder, webbdesign, film, ljud och annat innehåll är
+# skyddat genom lag (1960:729) om upphovsrätt till litterära och konstnärliga verk
+# (härefter “upphovsrättslagen”).
 #
-# You may not use, nor may you facilitate or authorize the use of, the websites and/or any
-# content for any purpose without prior written permission by Bonnier News, including, but
-# not limited to, scraping the content or reproducing, modifying, collecting or extracting
-# the content for text and data aggregation, analysis or extraction or commercial use.
-# However, permission for website scraping and indexing may be granted for inclusion in a
-# search engine provided that such authorization has been made explicitly by us through our
-# technical instructions or similar specifications. Any form of scraping and indexing not
-# expressly authorized by our technical instructions or specifications is strictly
-# prohibited.
+# Förbehåll mot text- och datautvinning
+# Bonnier News AB som företrädare av sitt och sina koncernbolags innehav av rätt enligt
+# upphovsrättslagen förbehåller sig all rätt till mångfaldigande och utvinning för text-
+# och datautvinningsändamål av innehållet i, inklusive rätten att använda, en
+# presspublikation och varje annat alster som omfattas av upphovsrättslagen.
+#
+# Detta förbehåll stöds på 15 a § upphovsrättslagen som grundas på artikel 4 i
+# EU-direktivet om upphovsrätten på den digitala inre marknaden (direktiv (EU) 2019/790).
+#
+# Undantag från detta förbehåll kan meddelas för införande i en sökmotor eller liknande
+# genom scraping och indexering av en webbplats. Om sådant undantag är meddelat framgår
+# det uttryckligen av Bonnier News tillhandahållna tekniska anvisningar eller liknande
+# specifikationer. All form av scraping och indexering som inte är uttryckligen undantagen
+# på sådant sätt är följaktligen förbjuden.
+#
+# Copyright
+# All content on the websites of Bonnier News AB and its group companies (hereinafter
+# “Bonnier News”), including text, graphics, images, web design, film, sound and other
+# content, is protected under the Act (1960:729) on copyright in literary and artistic
+# works (hereinafter the “Swedish Copyright Act”).
+#
+# Reservation of rights in respect of text and data mining
+# Bonnier News AB, acting on behalf of itself and its group companies in respect of their
+# rights under the Swedish Copyright Act, reserves all rights to reproduce and extract,
+# for text and data mining purposes, the content of a press publication and any other work
+# covered by the Swedish Copyright Act, including the right to use such publications and
+# works.
+#
+# This reservation is based on Section 15a of the Swedish Copyright Act, which is based on
+# Article 4 of the EU directive on copyright and related rights in the digital single
+# market (Directive (EU) 2019/790).
+#
+# Exceptions to this reservation may be granted for inclusion in a search engine or
+# similar service through the scraping and indexing of a website. Where such an exception
+# has been granted, it will be expressly stated in the technical instructions or similar
+# specifications provided by Bonnier News. Consequently, any form of scraping and indexing
+# that is not expressly exempted in this way is prohibited.
 
 # Common Crawl robot, the resulting dataset is the primary training corpus in every LLM.
 User-agent: CCBot
@@ -248,7 +275,6 @@ User-agent: Crawl4AI   # not documented by its operator
 User-agent: Crawlspace
 User-agent: Datenbank Crawler   # not documented by its operator
 User-agent: Echobot Bot   # not documented by its operator
-User-agent: EchoboxBot
 User-agent: FirecrawlAgent
 User-agent: ImagesiftBot
 User-agent: imageSpider   # not documented by its operator
