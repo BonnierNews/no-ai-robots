@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.11
+
+- Update legal notice
+- Allow EchoboxBot
+
 ## 0.0.10
 
 - Allow SemrushBot
